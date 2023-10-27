@@ -1,0 +1,18 @@
+h1 {
+    font-size: 40px;
+    color: aqua;
+    font-family: 'Palette', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px white;
+}
+p {
+    color: aqua;
+    font-family: 'Palette', sans-serif;
+    text-align: left;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px white;
+}
+body { 
+    background-color: black;
+}
