@@ -7,3 +7,4 @@ friends [5] = 1
 
 console.log(friends)
 console.log(friends[1])
+console.log("friends")
