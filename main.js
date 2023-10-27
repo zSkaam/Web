@@ -1,9 +1,20 @@
-let friends = ['Alan', 'Mark', 'Julia', 'Bella', 1]
-console.log(friends)
+let grade = prompt('digite a nota do aluno: ')
 
-friends [1] = 'Anna' //Replace
-friends [4] = 'Maverick' //Add itens
-friends [5] = 1
-
-console.log(friends)
-console.log(friends[1])
+if (grade > 100) {
+    alert('Nota inválida')
+}
+else if (grade >= 90) {
+    alert('Aluno nota A')
+}
+else if (grade >= 80) {
+    alert('Aluno nota B')
+}
+else if (grade >= 70) {
+    alert('Aluno nota C')
+}
+else if (grade >= 60) {
+    alert('Aluno nota D')
+}
+else {
+    alert('Aluno nota F')
+}
