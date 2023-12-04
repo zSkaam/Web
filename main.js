@@ -1,20 +1,16 @@
-let grade = prompt('digite a nota do aluno: ')
+let idade = prompt ('Digite a sua idade: ')
+let temTitulo = prompt ('Tem titulo de eleitor? (sim/não): ')
+const idadeMinima = 18
 
-if (grade > 100) {
-    alert('Nota inválida')
+if (idade >= idadeMinima && temTitulo == 'sim') {
+    console.log ('Você pode votar :)')
 }
-else if (grade >= 90) {
-    alert('Aluno nota A')
+else if (idade>= idadeMinima && temTitulo == 'não') {
+    console.log ('Você precisa de um título para votar :(')
 }
-else if (grade >= 80) {
-    alert('Aluno nota B')
+else{
+    console.log ('Você não pode votar.')
 }
-else if (grade >= 70) {
-    alert('Aluno nota C')
-}
-else if (grade >= 60) {
-    alert('Aluno nota D')
-}
-else {
-    alert('Aluno nota F')
-}
+//else if (idade < idadeMinima &&  temTitulo == 'sim' || temTitulo == 'não'){
+//console.log ('Você não tem a idade mínima para votar')
+//}
